@@ -1,0 +1,12 @@
+POST http://127.0.0.1:3000/api/todos/add
+Content-Type: application/json
+
+{
+    "title": "ToDo #6 🤧"
+}
+
+###
+GET  http://127.0.0.1:3000/api/todos/get-all
+Content-Type: application/json
+
+
